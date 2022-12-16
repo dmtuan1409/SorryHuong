@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title>I am sorry 🥹</title>
+		<link rel="stylesheet" type="text/css" href="./css/format.css">
+	</head>
+
+	<body style="margin:0px">
+		
+		<canvas></canvas>
+		<div id="imgTxt">
+			<span id="Txt"></span> 
+			<span id="tmp"></span>
+			<img id="img">
+		</div>
+		<div id="heartTxt">
+			<span id="clickMe">Click!</span>
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+		</div>
+		<div id="content">
+			<h2 id="together">Anh xin lỗi, em hãy dành ra chút thời gian nhaaaaaá ...</h2>	
+		</div>
+
+    	<div id = "typeDiv">
+        	<span id="txt1"></span> <br />
+        	<span id="txt2"></span>
+    	</div>		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+			var imageArray = ["pic/pic1.JPG", "pic/pic2.JPG", "pic/pic3.JPG", "pic/pic4.JPG", "pic/pic5.JPG", "pic/pic6.JPG", 
+			"pic/pic7.JPG", "pic/pic8.JPG", "pic/pic9.JPG", "pic/pic10.JPG", "pic/pic11.JPG", "pic/pic12.JPG", "pic/pic13.JPG",
+			"pic/pic14.JPG", "pic/pic15.JPG", "pic/pic16.JPG", "pic/pic17.JPG", "pic/pic18.JPG", "pic/pic19.JPG", "pic/pic20.JPG", "pic/pic21.JPG"];
+			var imageIndex = 0;
+			var txtArray = ["Đã có vài lần anh khiến em buồn 🥹", "Chuyện hôm đó quả thật là quá sức chịu đựng của em", "Anh cũng đã cố gắng nghiêm túc nhìn nhận lại vấn đề",
+			 "Anh đã sai khi đã quá vội vã, không khéo léo và không nghe lời em", "Anh biết em ghét anh, sợ anh và không muốn quen anh nữa", "Chúng mình quen nhau cũng khoảng 5 tháng rồi", "Cũng không đơn giản để được như thế này",
+			 "Anh mong em có thể tha thứ cho anh lần cuối cùng", "Có thể em chưa quên ngay được chuyện đó", "Anh cũng chưa từng nghĩ sẽ có chuyện như vậy xảy ra 1 cách đột ngột như thế", "Nhưng thực lòng anh thích em, muốn ở bên cạnh em, quan tâm em, ủng hộ em và nghe em tâm sự", 
+			 "Muốn được xé thịt gà đút cho em, được cùng em đi ăn những món ngon, cùng em học", "Thậm chí muốn cùng em hóng những drama để xả stress mặc dù nó còn stress thêm 😂", "Anh rất hi vọng em có thể châm chước cho anh lần này", 
+			 "Trong khi quen nhau không tránh khỏi những cãi vã, mâu thuẫn không mong muốn và không đoán trước được", "Anh cũng đang cố gắng từng ngày để hoàn thiện bản thân anh hơn", "Anh sẽ lắng nghe và tin rằng sẽ trưởng thành hơn nữa để khiến em vui vẻ hơn và bảo vệ được em",
+			 "Hình như bố mẹ anh biết mình quen nhau rùi và cả người quen họ hàng em cũng biết rùi ấy 🥹", "Anh mong em hãy bỏ qua cho anh lần này, cho anh thêm 1 cơ hội nhé!", "Anh xin lỗi em và cảm ơn em nhiều 🥰", "Tha thứ cho anh nhé, anh không có chuyên môn nên làm không được đẹp, cảm ơn em đã xem nhé!" ];
+			var len = imageArray.length;
+			var t = 0;
+		</script>
+		
+		<script type="text/javascript" src="./js/stars.js"></script>
+		<script type="text/javascript" src="./js/typeWriter.js"></script>
+		<script type="text/javascript" src="./js/date.js"></script>
+		<script type="text/javascript" src="./js/playImg.js"></script>
+	</body>
+</html>
